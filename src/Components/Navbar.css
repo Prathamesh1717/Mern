@@ -1,0 +1,31 @@
+.container{
+    max-width: 140rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 3.2rem;
+    flex-wrap: wrap;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    ul {
+        gap: 1.6rem;
+    }
+    
+    .container {
+        padding: 2rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    ul {
+        gap: 1rem;
+        font-size: 1.4rem;
+    }
+}

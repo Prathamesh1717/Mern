@@ -1,0 +1,22 @@
+:root, html, body, #root {
+  height: 100%;
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-content {
+  flex: 1;
+}
+
+.footer {
+  margin-top: auto;
+  position: static;
+  left: auto;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+}
